@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter;
+}
+p {
+  font-size: 14px;
+}
+.profile-card {
+  color: hsl(0, 0%, 100%);
+  max-width: 375px;
+  margin: auto;
+  padding: 1em;
+  border-radius: unset;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1em;
+}
+h1,
+p,
+h2 {
+  text-align: center;
+}
+h2 {
+  font-size: 1.2em;
+}
+h1 {
+  white-space: nowrap;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+#my-location {
+  color: hsl(75, 94%, 57%);
+}
+.profile-card img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  background-color: hsl(0, 0%, 20%);
+  list-style-type: none;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin: 1em auto 1em auto;
+  width: 100%;
+  margin-left: -40px;
+  text-align: center;
+  font-weight: 600;
+  transition: background-color 1s ease-in;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+@media screen and (min-width: 920px) {
+  .profile-card {
+    max-width: 600px;
+  }
+}
